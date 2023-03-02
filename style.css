@@ -8,25 +8,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: #1d1f20;
 }
 h1{
-    font-family: "Shantell Sans";
+    font-family: "Incosolata", Consolas, monospace;
     font-size: 4em;
-    color: #00bd1f;
+    color: #d7b94c;
 }
 .typewriter{
     position: relative;
 }
 .typewriter::after{
-    content: normal;
+    content: '|';
     position: absolute;
     right: 0;
-    color: rgb(60, 255, 0);
-    background-color: #000000;
+    color: white;
+    background-color: #1d1f20;
     width: 100%;
-    animation: typing 5s steps(100) alternate infinite,
-                line 5s infinite;
+    animation: typing 3s steps(14) alternate infinite,
+                line 1s infinite;
 }
 @keyframes typing{
     to{
@@ -36,6 +36,4 @@ h1{
 @keyframes line {
     50%{
         color: transparent;
-    }
-}
 
