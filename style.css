@@ -36,4 +36,25 @@ body{
         position: relative;
 }
 
-.dynamic-txts li ::after
+.dynamic-txts li ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid yellowgreen; 
+    animation: typing 3s steps(10);
+    
+}
+
+@keyframes typing{
+    40%
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }   
+
+    }
+}
