@@ -2,7 +2,7 @@
 body { background: #000; margin: 2rem; overflow: hidden; }
 p { color: lime; font-family: "Courier"; font-size: 1.4rem; margin: 1rem 0; white-space: nowrap; overflow: hidden; width: 80rem; animation: type 6s steps(60, end); }
     p:nth-child(2) { animation: type2 8s steps(60, end); }
-    p h4 a  { color: lime; text-decoration: none; }
+    p a { color: lime; text-decoration: none; }
     span { animation: blink 1s infinite; }
     @keyframes type    
     { from { width: 0; } } 
