@@ -32,7 +32,8 @@
     div:nth-child(5) { 
         animation: typediv5 16s steps(120, end); 
     }
-    p a div { color: lime; text-decoration: none; }
+    p a  { color: lime; text-decoration: none; }
+    div {color: lime;text-decoration: double;}
     span { animation: blink 1s infinite; }
 
 
