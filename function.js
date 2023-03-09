@@ -8,6 +8,7 @@ $(function() {
                 $(this).html($(this).html() + text[n]);
             });
             n +=1 ;
+            let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             if( n >= text.length ) {
                 clearInterval(interval);
             }
@@ -15,7 +16,7 @@ $(function() {
 
 
     }
-    typeWriter ($('.text3')  , 100 , 0 , $('.text3').data('text'));
+    typeWriter ($('.text1')  , 100 , 0 , $('.text3').data('text'));
 
 
 });
