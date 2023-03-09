@@ -12,8 +12,8 @@
         overflow: hidden; 
     }
     p { color: lime; font-family: "Courier"; 
-        font-size: 1.4rem; 
-        margin: 1rem 0; 
+        font-size: 1rem; 
+        margin: 2rem 0; 
         white-space: nowrap; 
         overflow: hidden; 
         width: 80rem; 
@@ -30,7 +30,7 @@
             animation: type4 12s steps(120, end);
     }
     div:nth-child(5) { 
-        animation: typediv5 16s steps(120, end); 
+        animation: type5 16s steps(120, end); 
     }
     p a  { color: lime; text-decoration: none; }
     div {color: lime;text-decoration: double;}
@@ -51,7 +51,7 @@
 @keyframes type4 { 0% { width: 0; } 50% 
                         {   width: 0; } 100% 
                             { width: 100; } } 
-@keyframes typediv5 { 0% { width: 0; } 50% 
+@keyframes type5 { 0% { width: 0; } 50% 
                             {   width: 0; } 100% 
                                 { width: 100; } }                                                     
 
