@@ -1,7 +1,20 @@
-* { margin: 0; padding: 0; border: 0; outline: 0; font: inherit; box-sizing: border-box; }
-    body { background: #000; margin: 2rem; overflow: hidden; }
-    p { color: lime; font-family: "Courier"; font-size: 1.4rem; 
-        margin: 1rem 0; white-space: nowrap; 
+* { margin: 0;
+     padding: 0; 
+     border: 0; 
+     outline: 0; 
+     font: inherit; 
+     box-sizing: 
+     border-box; }
+    
+     body { background: 
+        #000; 
+        margin: 2rem; 
+        overflow: hidden; 
+    }
+    p { color: lime; font-family: "Courier"; 
+        font-size: 1.4rem; 
+        margin: 1rem 0; 
+        white-space: nowrap; 
         overflow: hidden; 
         width: 80rem; 
         animation: type 4s 
@@ -27,13 +40,14 @@
 
 ::selection { background: #000; }
 
-.typeWriter {
-    margin: 30px auto;
-    width: 600px;
-    padding: 20px;
-    border: 5px solid rgb(0, 0, 0);
-    font-size: 24px;
-}
- .text3 {
-    color: rgb(9, 144, 20);;
-}
+.typewriter {
+    animation: typing 10.5s steps(30, end), blink-caret .75s step-end infinite;
+    white-space: pre;
+    font-family: monospace;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
