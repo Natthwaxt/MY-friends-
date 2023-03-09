@@ -17,7 +17,7 @@
         white-space: nowrap; 
         overflow: hidden; 
         width: 80rem; 
-        animation: type 4s 
+        animation: type 6s 
         steps(90, end); 
     }
     p:nth-child(2) { 
