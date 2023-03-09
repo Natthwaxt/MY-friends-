@@ -24,13 +24,13 @@
         animation: type2 8s steps(120, end); 
     }
     p :nth-child(3){ 
-        animation: type3 10s steps(120, end); 
+        animation: type3 10s steps(140, end); 
     }           
     p:nth-child(4) { 
-            animation: type4 12s steps(120, end);
+            animation: type4 12s steps(160, end);
     }
     p:nth-child(5) { 
-        animation: type5 16s steps(120, end); 
+        animation: type5 16s steps(180, end); 
     }
     p a  { color: lime; text-decoration: none; }
     span { animation: blink 1s infinite; }
@@ -45,16 +45,16 @@
 } 
 
  
-@keyframes type3 { 0% { width: 0; } 50% 
+@keyframes type3 { 0% { width: 0; } 0% 
                     {   width: 0; } 100% 
                         { width: 100; } 
 }
 
-@keyframes type4 { 0% { width: 0; } 50% 
+@keyframes type4 { 0% { width: 0; } 00% 
                         {   width: 0; } 100% 
                             { width: 100; } 
 } 
-@keyframes type5 { 0% { width: 0; } 50% 
+@keyframes type5 { 0% { width: 0; } 0% 
                             {   width: 0; } 100% 
                                 { width: 100; } 
 }                                                     
