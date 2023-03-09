@@ -25,9 +25,9 @@
     }
     p:nth-child(3) { 
             animation: type3 10s steps(120, end); 
-        }           
+    }           
     p:nth-child(4) { 
-                animation: type4 12s steps(120, end); 
+            animation: type4 12s steps(120, end); 
     }
     p a { color: lime; text-decoration: none; }
     span { animation: blink 1s infinite; }
