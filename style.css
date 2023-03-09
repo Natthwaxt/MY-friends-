@@ -41,10 +41,12 @@
 ::selection { background: #000; }
 
 .typewriter {
-    animation: typing 10.5s steps(30, end), blink-caret .75s step-end infinite;
-    white-space: pre;
-    font-family: monospace;
+    animation: typing 10.5s steps(90, end), 
+    blink-caret .75s step-end infinite;
+    white-space: nowrap;
+    color: lime;font-family: Courier;
     overflow: hidden;
+   
   }
   
   @keyframes typing {
