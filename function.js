@@ -15,7 +15,6 @@ $(function() {
 
 
     }
-    typeWriter ($('.text2')  , 100 , 0 , $('.text2').data('text'));
     typeWriter ($('.text3')  , 100 , 0 , $('.text3').data('text'));
 
 
